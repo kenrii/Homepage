@@ -7,19 +7,26 @@ body {
 
 li{
     list-style-type: none;
-    margin: 3.9vh;
-    font-size: calc(20px + 0.5vw);
+    font-size: 20px;
     font-weight: 600;
 }
 
-ul{
+.main-nav {
+    width: 35%;
     margin: 0;
     display: flex;
+    float: right;
+    justify-content: space-evenly;
 }
 
-a{
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar a{
     text-decoration: none;
-    padding: 2vw;
     color: #0B5380;
     font-style: normal;
 }
@@ -29,11 +36,11 @@ a:hover{
 }
 
 nav{
-    width: 100vw;
+    width: 100%;
     background: #EEEEEE;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
-    height: 6.7vw;
+    height: 65px;
 }
 
 @media only screen and (max-width: 500px) {
