@@ -65,6 +65,18 @@ a:hover{
     padding-right: 10px;
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects img {
+    max-width: 360px;
+    max-height: 240px;
+    padding: 42px;
+}
+
 
 @media only screen and (max-width: 750px) {
 
@@ -106,5 +118,11 @@ a:hover{
         font-size: 31px;
         font-weight: 600;
         padding: 20px;
+    }
+
+    .projects img {
+        max-width: 360px;
+        max-height: 240px;
+        padding: 42px 0px;
     }
 }
