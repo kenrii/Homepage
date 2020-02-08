@@ -132,8 +132,10 @@ a:hover{
     height: auto;
 }
 
-.icons img {
+.icons i {
     padding-right: 6%;
+    font-size: 40px;
+    color: #544949;
 }
 
 .projects {
@@ -216,5 +218,5 @@ a:hover{
     .projects img {
         padding: 42px 0px;
     }
-
+    
 }
