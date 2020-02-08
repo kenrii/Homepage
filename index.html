@@ -30,9 +30,17 @@
       $('nav').toggleClass('active')
     })
     $('nav li').on('click', function(){
-        $('nav').removeClass('active');
-    });
+        $('nav').removeClass('active')
+    })
   }) 
+
+  $("a[href^='#']").click(function(e) {
+	  e.preventDefault();
+	  var position = $($(this).attr("href")).offset().top
+    $("body, html").animate({
+	    scrollTop: position
+	  })
+  })
 
 </script> 
 <!-- NAV bar END-->
