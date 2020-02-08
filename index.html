@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html>
 <head>
+<title> Ken Riippa</title>
 <meta charset = "UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="index.css">
@@ -18,7 +19,7 @@
     <ul class="navbar">
       <li><a href="#home"> Home </a></li>
       <li><a href="#projects"> Projects </a></li>
-      <li><a href="#About"> About </a></li>
+      <li><a href="#about"> About </a></li>
     </ul>
   </nav>
 </header>
@@ -33,7 +34,7 @@
         $('nav').removeClass('active')
     })
   }) 
-
+  // smooth scroll
   $("a[href^='#']").click(function(e) {
 	  e.preventDefault();
 	  var position = $($(this).attr("href")).offset().top
@@ -42,14 +43,25 @@
     },
     500,
     'linear')
-  })
+  }) 
 
 </script> 
 <!-- NAV bar END-->
 <section id="home">
-    <h1> Hi, My name is Ken. Nice to meet you.</h1>
-    <h3> I do data science and software engineering with passion</h3>  
-    <img src="circles.png" id=circles>
+  <div class="home">
+    <div class="content">
+      <h1> Hi,<br>My name is Ken.<br>Nice to meet you.</h1>
+      <p> I do data science and software<br>engineering with passion</p>  
+      <div class="icons">
+        <img src="icons/linkedin.png">
+        <img src="icons/github.png">
+        <img src="icons/mail.png">
+      </div>
+    </div>
+    <div class="circles">
+      <img src="circles2.png">
+    </div>
+  </div>
 </section>
 <!-- Projects START-->
 <section id="projects">
@@ -62,12 +74,12 @@
 </section>
 <!-- Projects END-->
 <!-- About Start-->
-<h2 id="About">About</h2>
+<h2 id="about">About</h2>
 <img id="Ken" src="Ken.png">
 <div class="teksti">
   <p> Kissalla on voimakas saalistusvietti, ja sillä on erittäin tarkka kuulo ja hyvä hämäränäkö. Kissat viihtyvät yksin ja muodostavat oman elinpiirin, jolla ne liikkuvat ja saalistavat. Kissa nukkuu paljon ja puhdistaa itseään ahkerasti. Kissa elää tavallisesti 14–20-vuotiaaksi, joskus yli 30-vuotiaaksi.</p>
 </div>
 <!-- About END-->
-
+<footer> Ken Riippa 2020</footer>
 </body>
 </html>  
