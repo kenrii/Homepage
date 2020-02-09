@@ -47,58 +47,78 @@
 
 </script> 
 <!-- NAV bar END-->
-<section id="home">
-  <div class="home">
-    <div class="content">
-      <h1> Hi,<br>My name is <font color=#FF9C12> Ken Riippa. </font><br>Nice to meet you.</h1>
-      <p> I do data science and software<br>engineering with passion</p>  
-      <div class="icons">
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github"></i>
-        <i class="far fa-envelope"></i>
-      </div>
-    </div>
-    <div class="circles">
-      <img src="circles2.png">
+<section id="home" class="home">
+  <div class="content">
+    <h1> Hi,<br>My name is <font color=#FF9C12> Ken Riippa. </font><br>Nice to meet you.</h1>
+    <p> I do data science and software<br>engineering with passion</p>  
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/kenriippa/"><i class="fab fa-linkedin"> </i></a>
+      <a href="https://github.com/kenrii"><i class="fab fa-github"></i></a>
+      <a href="mailto:ken.j.riippa@gmail.com"><i class="fa fa-envelope"></i></a>
     </div>
   </div>
-  <div class="scrolldown">
-    <span></span>
-    <span></span>
-    <span></span>
+  <div class="circles">
+    <img src="circles2.png">
   </div>
 </section>
+<div class="scrolldown">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 <!-- Projects START-->
-<section id="projects">
-  <div class="projects">
-    <div class="sticky-h2"> 
-      <h2> Projects</h2>
-    </div>
-    <div class="works">
-      <article>
-        <img src="testi1.png">
-        <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-      </article>
-      <article>
-        <img src="testi2.png">
-        <p> Nunc eu erat eu justo bibendum vehicula at in magna. Proin non urna augue. Sed id commodo libero. Donec pulvinar felis et leo sollicitudin ultricies. Praesent ac sapien lectus. Vivamus tristique varius enim. Donec ac varius lorem. Pellentesque ultricies eget augue quis dignissim. Mauris pharetra lorem ac tortor facilisis, sit amet mattis ante tristique. Suspendisse tincidunt felis nec lorem pretium faucibus. Cras vel tempus velit. Pellentesque accumsan vulputate porta. Phasellus id odio nunc. Suspendisse scelerisque arcu sed malesuada blandit.</p>
-      </article>
-      <article>
-        <img src="testi3.png">
-        <p> Käytännössä vain Internet Explorer 11 (vuodelta 2013!) aiheuttaa enää
-          isoja ongelmia, ja sitä käyttävät lähinnä julkiset laitokset</p>
-      </article>
-    </div>
+<section id="projects" class="projects">
+  <div class="sticky-h2"> 
+    <h2> Projects</h2>¨
+  </div>
+  <div class="works">
+    <article>
+      <img src="projects/tweetai.png" height="400" width="550">
+      <div class=details>
+        <h3>Tweet.ai</h3>
+        <h4>Python Flask Heroku CSS HTML</h4>
+        <p> This web application analyses the last 1000 tweets of the searched topic with a 
+            machine learning model in few seconds. Tweets can be either negative, neutral or positive(Sentimental analysis).
+            Twitter has been a social platform for conversation. I thought it is interesting to 
+            monitor public opinion on different topics on Twitter. Furthermore, this was a 
+            superb opportunity to learn more about web development, data science and visualization.
+            <br><br><br> <a href="https://tweetai.herokuapp.com/"> Link to Tweet.ai</a>
+        </p>
+      </div>
+    </article>
+    <article>
+      <div class=details>
+        <h3>Digit recognizer</h3>
+        <h4>Pandas Scikit-learn Tensorflow Keras</h4>
+        <p> Build CNN neural network model for recognizing handwritten digits(0-9). In this project, 
+            I wanted to learn the basics of deep learning and computer vision. My model accuracy was 97%.
+            <br><br><br> <a href=https://github.com/kenrii/Data-Science-Studio/tree/master/Digit-recognizer> Github page</a>
+        </p>
+      </div>
+      <img src="projects/digits.png" height="450" width="500">
+    </article>
   </div>
 </section>
 <!-- Projects END-->
 <!-- About Start-->
-<h2 id="about">About</h2>
-<img id="Ken" src="Ken.png">
-<div class="teksti">
-  <p> Kissalla on voimakas saalistusvietti, ja sillä on erittäin tarkka kuulo ja hyvä hämäränäkö. Kissat viihtyvät yksin ja muodostavat oman elinpiirin, jolla ne liikkuvat ja saalistavat. Kissa nukkuu paljon ja puhdistaa itseään ahkerasti. Kissa elää tavallisesti 14–20-vuotiaaksi, joskus yli 30-vuotiaaksi.</p>
-</div>
+<section id="about" class="about">
+  <div class="sticky-h2">
+    <h2>About</h2>
+  </div>
+  <div class="pic">
+    <img id="Ken" src="Ken.png">
+  </div>
+  <div class="text">
+    <p> Kissalla on voimakas saalistusvietti, ja sillä on erittäin tarkka kuulo ja hyvä hämäränäkö. Kissat viihtyvät yksin ja muodostavat oman elinpiirin, jolla ne liikkuvat ja saalistavat. Kissa nukkuu paljon ja puhdistaa itseään ahkerasti. Kissa elää tavallisesti 14–20-vuotiaaksi, joskus yli 30-vuotiaaksi.</p>
+  </div>
+  <div class="contact">
+    <a href="https://www.linkedin.com/in/kenriippa/">Linkedin</a>
+    <a href="https://github.com/kenrii">Github</a>
+    <a href="mailto:ken.j.riippa@gmail.com">Mail</a>
+    <a>Resume</a>
+  </div>
+</section>
 <!-- About END-->
-<footer> Ken Riippa 2020</footer>
+<footer>©Ken Riippa 2020</footer>
 </body>
 </html>  
