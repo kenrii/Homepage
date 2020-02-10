@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #100F15;
+    background: #bbe1fa;
     font-family:'Poppins';
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
 
 header {
     width: 100%;
-    background: #EEEEEE;
+    background: #ededed;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 65px;
     padding: 10px 10px 10px 20px;
@@ -26,7 +26,7 @@ h1 {
     font-weight: 600;
     font-size: 49px;
     line-height: 73px;
-    color: #DDDDDD;
+    color: #544949;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0px;
 }
@@ -35,14 +35,15 @@ h2 {
     font-weight: 600;
     font-size: 49px;
     line-height: 46px;
-    color: #1285CC;
+    color: #FF9C12;
+    letter-spacing: 5px;
 }
 
 h3 {
     margin: 0 0 3px 0;
     font-size: 20px;
     line-height: 30px;
-    color: #DDDDDD;
+    color: #544949;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -50,12 +51,12 @@ h4 {
     margin: 3px 0 0 0;
     font-size: 13px;
     line-height: 30px;
-    color: #A3A3A3;
+    color: #544949;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 p {
-    color: #DDDDDD;
+    color: #544949;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
 }
@@ -97,7 +98,6 @@ nav{
     height: 45px;
     width:45px;
     float: left;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .home {
@@ -112,7 +112,7 @@ nav{
 }
 
 section {
-    padding-bottom: 15%;
+    padding-bottom: 13%;
     box-sizing: border-box;
 }
 
@@ -142,7 +142,7 @@ section {
     line-height: 30px;
     font-style: normal;
     font-weight: normal;
-    color: #DDDDDD;
+    color: #544949;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 5px;
 }
@@ -163,7 +163,7 @@ section {
 .icons i {
     font-size: 40px;
     margin-right: 6%;
-    color: #DDDDDD;
+    color: #544949;
 }
 
 .scrolldown {
@@ -237,7 +237,7 @@ article {
 article a {
     display: inline-block;
     text-decoration: none;
-    color: #DDDDDD;
+    color: #544949;
     font-style: italic;
     font-weight: 600;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -263,42 +263,50 @@ article a:hover, .contact a:hover {
     height: auto;
 }
 
-.details {
-    display: flex;
-    flex-direction: column;
-}
 
 .about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
 
+.ken {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .pic {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .text {
-    width: 50%;
+    padding: 5%;
+    width: 30%;
+}
+
+.text h3 {
+    padding-bottom: 30px;
 }
 
 .contact {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding-top: 7%;
 }
 
 .contact a {
     font-size: 49px;
-    margin-top: 5%;
+    margin-top: 2%;
     display: inline-block;
     text-decoration: none;
-    color: #DDDDDD;
+    color: #544949;
     font-style: italic;
     font-weight: 600;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -306,7 +314,7 @@ article a:hover, .contact a:hover {
 }
 
 footer {
-    color: #DDDDDD;
+    color: #544949;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -380,6 +388,14 @@ footer {
 
     article {
         flex-direction: column;
+    }
+
+    .ken {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 75%;
     }
 
 }
