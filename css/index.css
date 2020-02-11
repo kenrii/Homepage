@@ -304,7 +304,9 @@ article a:hover, .contact a:hover, .icons i:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 7%;
+    padding-bottom: 13%;
+    box-sizing: border-box;
+
 }
 
 .contact a {
