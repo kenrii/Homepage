@@ -1,11 +1,10 @@
 
-
 body {
-    background: #bbe1fa;
     font-family:'Poppins';
     margin: 0;
     padding: 0;
     padding-top: 65px;
+    background-color: #bbe1fa;;
 }
 
 header {
