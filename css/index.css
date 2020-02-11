@@ -147,6 +147,10 @@ section {
     margin-top: 5px;
 }
 
+.content span {
+    color: rgb(255, 156, 18);
+}
+
 .circles {
     padding-top: 5%;
     padding-left: 0%;
