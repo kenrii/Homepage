@@ -37,6 +37,8 @@ h2 {
     line-height: 46px;
     color: #FF9C12;
     letter-spacing: 5px;
+    padding-top: 0%;
+    padding-bottom: 3%;
 }
 
 h3 {
@@ -44,7 +46,6 @@ h3 {
     font-size: 20px;
     line-height: 30px;
     color: #544949;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h4 {
@@ -115,8 +116,6 @@ section {
     padding-bottom: 13%;
     box-sizing: border-box;
 }
-
-
 
 #Ken {
     max-width: 100%;
@@ -231,6 +230,17 @@ section {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 0%;
+    box-sizing: border-box;
+}
+
+.details p, .details a {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.details h4 {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #7C7272;
 }
 
 article {
@@ -238,6 +248,7 @@ article {
     flex-direction: row;
     margin: 20px;
     margin-bottom: 10%;
+    padding: 0 3% 0 3%;
 }
 
 article:nth-child(2n) {
@@ -296,20 +307,25 @@ article a:hover, .contact a:hover, .icons i:hover {
 }
 
 .text {
-    padding: 5%;
+    padding-left: 5%;
     width: 30%;
+}
+
+.text p {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 .text h3 {
     padding-bottom: 30px;
 }
 
+
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 13%;
+    padding-bottom: 8%;
     box-sizing: border-box;
 }
 
@@ -394,6 +410,11 @@ footer {
         background-repeat: no-repeat;
     }
 
+    .projects h2 {
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
     .projects img {
         padding: 42px 0px;
     }
@@ -412,6 +433,7 @@ footer {
 
     .text {
         width: 75%;
+        padding-top: 8%;
     }
 
 }
